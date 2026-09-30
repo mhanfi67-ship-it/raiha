@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About | RA’IHA CENTS</title>
+  <meta name="description" content="About RA’IHA CENTS, a Pakistani fragrance brand, Home of Fragrances.">
+  <meta name="theme-color" content="#f6f0e7">
+  <meta property="og:title" content="About | RA’IHA CENTS">
+  <meta property="og:description" content="About RA’IHA CENTS, a Pakistani fragrance brand, Home of Fragrances.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+<body data-base="">
+  <div class="announcement">CASH ON DELIVERY &nbsp;|&nbsp; DELIVERY ACROSS PAKISTAN &nbsp;|&nbsp; DELIVERY Rs. 250</div>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="RA’IHA CENTS home">
+      <span class="brand-mark">R</span>
+      <span><strong>RA’IHA</strong><small>CENTS</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html" class="active">About</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></nav>
+    <div class="header-actions">
+      <a class="icon-btn" href="shop.html?search=1" aria-label="Search fragrances">Search</a>
+      <button class="icon-btn cart-btn" id="cartBtn" aria-label="Open bag">Bag <span id="cartCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+  <div class="mobile-nav" id="mobileNav"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html" class="active">About</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></div>
+
+  <main>
+    <section class="page-hero"><span class="eyebrow">ABOUT</span><h1>Home of Fragrances</h1></section>
+    <section class="page-section plain">
+      <div class="narrow">
+        <p>RA’IHA CENTS is a Pakistani fragrance brand built around a collection of fifteen eau de parfum fragrances, each presented in a 50 ml bottle with a gold-detailed black label.</p>
+        <p>We keep shopping simple. Every fragrance has its own page, prices are clear, and you pay in cash when your order reaches you.</p>
+        <p><a class="btn btn-primary" href="shop.html">Shop Perfumes</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-main">
+      <div><a class="brand" href="index.html"><span class="brand-mark">R</span><span><strong>RA’IHA</strong><small>CENTS</small></span></a><p>Home of Fragrances.</p></div>
+      <div class="footer-links"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="faq.html">FAQ</a></div>
+      <div><p>Cash on Delivery<br>Delivery across Pakistan<br>Delivery Rs. 250</p></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> RA’IHA CENTS</span><span>Home of Fragrances</span></div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer-head"><div><span class="eyebrow">YOUR BAG</span><h3>Shopping Bag</h3></div><button class="close-btn" id="closeCart" aria-label="Close bag">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-summary">
+      <div><span>Subtotal</span><b id="cartSubtotal">Rs. 0</b></div>
+      <div><span>Delivery</span><b id="cartDelivery">Rs. 0</b></div>
+      <div class="total"><span>Total</span><b id="cartTotal">Rs. 0</b></div>
+      <a class="btn btn-primary full" id="checkoutBtn" href="checkout.html">Checkout</a>
+      <button class="btn btn-ghost full" id="whatsappCartBtn">Order via WhatsApp</button>
+      <a class="continue" href="shop.html" id="continueShopping">Continue shopping</a>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
